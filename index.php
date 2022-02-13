@@ -9,7 +9,6 @@
 <body>
     <h1><b>Hello welcome to Trucorp database backup</b></h1>
     <br>
-    <h1>Test</h1>
     <?php
         echo "Database Trucorp";
         $link = mysqli_connect("172.18.0.2","root","1234", "backuptrucorpdb");
