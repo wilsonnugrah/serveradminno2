@@ -26,6 +26,7 @@
             <th>Alamat</th>
             <th>Jabatan</th>
             </tr>
+	<?php $total = 0 ?>
         <?php
         while($row = $res->fetch_assoc()) { 
         ?>
@@ -34,8 +35,10 @@
             <td><?php echo $row['Nama'] ?></td>
             <td><?php echo $row['Alamat'] ?></td>
             <td><?php echo $row['Jabatan'] ?></td>
+	    <?php $total += 1 ?>
         </tr>
         <?php } ?>
     </table>
+    <?php echo "Total jumlah user di Database : " $total;?>
 </body>
 </html>
