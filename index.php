@@ -40,6 +40,6 @@
         </tr>
         <?php } ?>
     </table>
-    <?php echo "Total jumlah user di Database : " $total;?>
+    <?php echo "Total jumlah user di Database : " . $total;?>
 </body>
 </html>
